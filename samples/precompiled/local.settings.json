@@ -3,9 +3,9 @@
   "Values": {
     "FUNCTIONS_WORKER_RUNTIME": "dotnet",
     "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-    "TwilioAccountSid": "<Put your Twilio Account SID here>",
-    "TwilioAuthToken": "<Put your Twilio Auth Token here>",
-    "TwilioPhoneNumber": "<Put your Twilio Phone Number here in E.164 format>",
+    "TwilioAccountSid": "ACea7266a8e87d78189a7668670f3cb3cd",
+    "TwilioAuthToken": "ba7b2fa064501996482e984bb0ee5329",
+    "TwilioPhoneNumber": "+17044198446",
     "WeatherUndergroundApiKey": "<Put your Weather Underground API key here>",
     "MyTaskHubName": "SampleHubVS"
   }

@@ -14,7 +14,7 @@ namespace VSSample
     {
         [FunctionName("HttpStart")]
         public static async Task<HttpResponseMessage> Run(
-            [HttpTrigger(AuthorizationLevel.Function, methods: "post", Route = "orchestrators/{functionName}")] HttpRequestMessage req,
+            [HttpTrigger(AuthorizationLevel.Anonymous, methods: "post", Route = "orchestrators/{functionName}")] HttpRequestMessage req,
             [DurableClient] IDurableClient starter,
             string functionName,
             ILogger log)
