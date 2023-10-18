@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
@@ -78,7 +78,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Azure.DurableTask.AzureStorage" Version="1.8.1" />
     <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.DurableTask.Analyzers" Version="0.3.2" />
-    <PackageReference Include="Azure.Identity" Version="1.1.1" />
+    <PackageReference Include="Azure.Identity" Version="1.10.2" />
   </ItemGroup>
 
   <!-- NuGet Publishing Metadata -->
